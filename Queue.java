@@ -41,7 +41,7 @@ public class Queue <T> {
     public boolean isEmpty(){ //to check if the queueNode is empty or not
             return !(length>0);
     }
-    public int size(){//finds size of queueNode
+    public int length(){//finds size of queueNode
         return length;
     }
 
